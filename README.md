@@ -58,7 +58,7 @@ Ensure you have the following installed:
 Clone the repository and install the dependencies:
 
 ```bash
-git clone [YOUR_REPO_URL] pyro-boilerplate
+git clone git@github.com:silviozum/pyro-boilerplate.git
 cd pyro-boilerplate
 npm install
 
