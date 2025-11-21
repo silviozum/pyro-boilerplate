@@ -43,6 +43,22 @@ One of the core strengths of Pyro Boilerplate is its modular design:
 
 ## 🛠️ Getting Started
 
-*(Add basic setup instructions here, such as installing dependencies and running the project)*
+Follow these steps to set up and run your NestJS API template locally.
 
----
+### 1. Prerequisites
+
+Ensure you have the following installed:
+
+* **Node.js** (v18.x or higher is recommended)
+* **npm** or **Yarn** (npm is used in the examples)
+* A **Database** instance (e.g., PostgreSQL, MySQL, or Docker for easy setup).
+
+### 2. Installation
+
+Clone the repository and install the dependencies:
+
+```bash
+git clone [YOUR_REPO_URL] pyro-boilerplate
+cd pyro-boilerplate
+npm install
+
