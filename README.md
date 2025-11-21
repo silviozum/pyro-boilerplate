@@ -41,6 +41,17 @@ One of the core strengths of Pyro Boilerplate is its modular design:
 
 ---
 
+## 🧑‍💻 WIP Features
+- [ ]  Auth Login
+- [ ]  Social Login
+- [ ]  Reset Password
+- [ ]  Modular database
+- [ ]  Route to Pay (make user having a billing)
+- [ ]  make the payment processors works
+- [ ]  modular payment processors
+
+---
+
 ## 🛠️ Getting Started
 
 Follow these steps to set up and run your NestJS API template locally.
