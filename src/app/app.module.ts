@@ -10,6 +10,8 @@ import { LoginService } from './services/login.service';
 import { UserRepository } from './repositories/user.repository';
 //prisma module
 import { PrismaModule } from '../../prisma/prisma.module';   
+//jwt module
+import { JwtModule } from '@nestjs/jwt';
 @Module({ 
   controllers: [
     UserController,
@@ -20,7 +22,12 @@ import { PrismaModule } from '../../prisma/prisma.module';
     UserRepository,
     LoginService
   ],
-  imports: [PrismaModule],
+  imports: [PrismaModule, 
+    JwtModule.register({
+      secret: process.env.JWT_SECRET,
+      signOptions: { expiresIn: '1h' },
+    }),
+  ],
 })
 export class AppModule {}
 
